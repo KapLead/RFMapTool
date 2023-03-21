@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MfcWnd">
+      <UniqueIdentifier>{8a011857-1a35-4793-ae7e-369eeea79c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fc984f15-4382-44fa-bd14-d771a0a7978e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Header Files No. 1">
+      <UniqueIdentifier>{89b59377-1a01-4698-9dca-fbc6707efb3e}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{916816ee-405b-4d80-b534-537cc38b7cb1}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="D3D &amp; Character">
+      <UniqueIdentifier>{f5c1ca0f-7443-42b7-a48b-40508f6b683f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>MfcWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="RFMapTool.cpp">
+      <Filter>MfcWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="RFMapToolDoc.cpp">
+      <Filter>MfcWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="RFMapToolView.cpp">
+      <Filter>MfcWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>MfcWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="cConSol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyD3DApp.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyColorButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MySpin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RightBack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RollupCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabCollision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabDummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabMagic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabParticle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>MfcWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="RFMapTool.h">
+      <Filter>MfcWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="RFMapToolDoc.h">
+      <Filter>MfcWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="RFMapToolView.h">
+      <Filter>MfcWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>MfcWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="cConSol.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyD3DApp.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="MyColorButton.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="MySpin.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="RightBack.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="RollupCtrl.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="TabCollision.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="TabDummy.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="TabEntity.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="TabMagic.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="TabParticle.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="TabSound.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolManager.h">
+      <Filter>Source Files\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="Crender.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Coll_DN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Coll_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dummy_dn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dummy_up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Entity_DN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Entity_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\magic_dn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\magic_up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Particle_DN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Particle_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="R3_16.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="R3_32.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\R3maptool.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RFMapTool.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RFMapToolDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sound_dn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sound_up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RFMapTool.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RFMapTool.clw">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\RFMapTool.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

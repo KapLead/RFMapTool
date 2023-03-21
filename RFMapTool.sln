@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RFMapTool", "RFMapTool.vcxproj", "{6C68486C-3958-4718-B45B-15DA455B3F28}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "R3Engine", "R3Engine\R3Engine.vcxproj", "{B4EDEF05-7D98-4504-9784-081F6311FC32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Client Debug|x86 = Client Debug|x86
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		RTMovie Debug|x86 = RTMovie Debug|x86
+		RTMovie Release|x86 = RTMovie Release|x86
+		S Debug NoSound|x86 = S Debug NoSound|x86
+		S Release NoSound|x86 = S Release NoSound|x86
+		Server Debug|x86 = Server Debug|x86
+		Template|x86 = Template|x86
+		Tool Debug|x86 = Tool Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Client Debug|x86.ActiveCfg = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Client Debug|x86.Build.0 = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Debug|x86.Build.0 = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Release|x86.ActiveCfg = Release|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Release|x86.Build.0 = Release|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.RTMovie Debug|x86.ActiveCfg = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.RTMovie Debug|x86.Build.0 = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.RTMovie Release|x86.ActiveCfg = Release|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.RTMovie Release|x86.Build.0 = Release|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.S Debug NoSound|x86.ActiveCfg = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.S Debug NoSound|x86.Build.0 = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.S Release NoSound|x86.ActiveCfg = Release|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.S Release NoSound|x86.Build.0 = Release|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Server Debug|x86.ActiveCfg = Server Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Server Debug|x86.Build.0 = Server Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Template|x86.ActiveCfg = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Template|x86.Build.0 = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Tool Debug|x86.ActiveCfg = Debug|Win32
+		{6C68486C-3958-4718-B45B-15DA455B3F28}.Tool Debug|x86.Build.0 = Debug|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Client Debug|x86.ActiveCfg = Client Debug|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Client Debug|x86.Build.0 = Client Debug|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Debug|x86.ActiveCfg = Client Debug|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Debug|x86.Build.0 = Client Debug|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Release|x86.ActiveCfg = RTMovie Release|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Release|x86.Build.0 = RTMovie Release|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.RTMovie Debug|x86.ActiveCfg = RTMovie Debug|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.RTMovie Debug|x86.Build.0 = RTMovie Debug|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.RTMovie Release|x86.ActiveCfg = RTMovie Release|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.RTMovie Release|x86.Build.0 = RTMovie Release|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.S Debug NoSound|x86.ActiveCfg = S Debug NoSound|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.S Debug NoSound|x86.Build.0 = S Debug NoSound|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.S Release NoSound|x86.ActiveCfg = S Release NoSound|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.S Release NoSound|x86.Build.0 = S Release NoSound|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Server Debug|x86.ActiveCfg = S Debug NoSound|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Server Debug|x86.Build.0 = S Debug NoSound|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Template|x86.ActiveCfg = Template|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Template|x86.Build.0 = Template|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Tool Debug|x86.ActiveCfg = Tool Debug|Win32
+		{B4EDEF05-7D98-4504-9784-081F6311FC32}.Tool Debug|x86.Build.0 = Tool Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1592CD50-D423-4A8C-BB56-001986983199}
+	EndGlobalSection
+EndGlobal

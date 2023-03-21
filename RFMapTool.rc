@@ -1,0 +1,917 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\RFMapTool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.kor\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "r3_32.ico"
+IDR_RFMAPTTYPE          ICON    DISCARDABLE     "res\\RFMapToolDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_TAB_COLL_UP         BITMAP  DISCARDABLE     "res\\Coll_UP.bmp"
+IDB_TAB_COLL_DN         BITMAP  DISCARDABLE     "res\\Coll_DN.bmp"
+IDB_TAB_ENTITY_UP       BITMAP  DISCARDABLE     "res\\Entity_UP.bmp"
+IDB_TAB_ENTITY_DN       BITMAP  DISCARDABLE     "res\\Entity_DN.bmp"
+IDB_TAB_PARTICLE_DN     BITMAP  DISCARDABLE     "res\\Particle_DN.bmp"
+IDB_TAB_PARTICLE_UP     BITMAP  DISCARDABLE     "res\\Particle_UP.bmp"
+IDB_TAB_MAGIC_DN        BITMAP  DISCARDABLE     "res\\magic_dn.bmp"
+IDB_TAB_MAGIC_UP        BITMAP  DISCARDABLE     "res\\magic_up.bmp"
+IDB_TAB_SOUND_DN        BITMAP  DISCARDABLE     "res\\sound_dn.bmp"
+IDB_TAB_SOUND_UP        BITMAP  DISCARDABLE     "res\\sound_up.bmp"
+IDB_TAB_DUMMY_DN        BITMAP  DISCARDABLE     "res\\dummy_dn.bmp"
+IDB_TAB_DUMMY_UP        BITMAP  DISCARDABLE     "res\\dummy_up.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_OPEN_EBP
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_FILE_COLLISION_OPEN
+    BUTTON      ID_FILE_COLLISION_SAVE
+    SEPARATOR
+    BUTTON      ID_FILE_MAP_ENTITY_OPEN
+    BUTTON      ID_FILE_MAP_ENTITY_ADD_OPEN
+    BUTTON      ID_FILE_MAP_ENTITY_SAVE
+    SEPARATOR
+    BUTTON      ID_FILE_DUMMY_OPEN
+    BUTTON      ID_FILE_DUMMY_SAVE
+    SEPARATOR
+    BUTTON      ID_FILE_SOUND_ENTITY_OPEN
+    BUTTON      ID_FILE_SOUND_ENTITY_SAVE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "BSP 열기(&O)...\tCtrl+O",     ID_FILE_OPEN
+        MENUITEM "EBP 열기",                    ID_FILE_OPEN_EBP
+        MENUITEM "EBP 저장(&S)\tCtrl+S",        ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "충돌맵 열기",                 ID_FILE_COLLISION_OPEN
+        MENUITEM "충돌맵 저장",                 ID_FILE_COLLISION_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "맵 엔티티 열기",              ID_FILE_MAP_ENTITY_OPEN
+        MENUITEM "맵 엔티티 더하기",            ID_FILE_MAP_ENTITY_ADD_OPEN
+        MENUITEM "맵 엔티티 저장",              ID_FILE_MAP_ENTITY_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "사운드 열기",                 ID_FILE_SOUND_ENTITY_OPEN
+        MENUITEM "사운드 저장",                 ID_FILE_SOUND_ENTITY_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "더미 열기",                   ID_FILE_DUMMY_OPEN
+        MENUITEM "더미 저장",                   ID_FILE_DUMMY_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "최근 파일",                   ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM "종료(&X)",                    ID_APP_EXIT
+    END
+    POPUP "보기(&V)"
+    BEGIN
+        MENUITEM "도구 모음(&T)",               ID_VIEW_TOOLBAR
+        MENUITEM "상태 표시줄(&S)",             ID_VIEW_STATUS_BAR
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "RFMapTool 정보(&A)...",       ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_RETURN,      ID_ENTER_KEY,           VIRTKEY, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RFMapTool 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "RFMapTool 버전 1.0 by ODIN",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2001",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DIALOG_RENDER DIALOG DISCARDABLE  0, 0, 400, 305
+STYLE WS_CHILD | WS_BORDER
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DIALOGBAR DIALOG DISCARDABLE  0, 0, 138, 249
+STYLE WS_CHILD
+FONT 8, "Tahoma"
+BEGIN
+END
+
+IDD_COLL_FILE DIALOGEX 0, 0, 119, 58
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "충돌맵 열기",IDC_BUTTON1,51,32,50,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "충돌맵 저장",IDC_BUTTON2,51,15,50,14,0,WS_EX_STATICEDGE
+    GROUPBOX        "File",IDC_STATIC,7,7,103,43
+END
+
+IDD_ALWAYS_BACK DIALOG DISCARDABLE  0, 0, 138, 125
+STYLE WS_CHILD
+FONT 8, "Tahoma"
+BEGIN
+    GROUPBOX        "Moving Axis",IDC_STATIC,67,7,46,25
+    CONTROL         "Y",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,72,16,15,14
+    CONTROL         "X Z",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,87,16,21,14
+    GROUPBOX        "Picking style",IDC_STATIC,7,7,55,25
+    CONTROL         "충돌맵표시",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,68,53,11
+    GROUPBOX        "View",IDC_STATIC,7,36,123,71
+    CONTROL         "맵 표시",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,44,40,11
+    EDITTEXT        IDC_EDIT3,99,44,27,12,ES_AUTOHSCROLL
+    CONTROL         "충돌점표시",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,56,54,11
+    COMBOBOX        IDC_COMBO1,7,16,55,43,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "엔티티표시",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,80,53,11
+    CONTROL         "엔티티BBox",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,93,53,11
+    CONTROL         "col",IDC_TAB_COLL_BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,7,107,20,17
+    CONTROL         "entity",IDC_TAB_ENTITY_BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,27,107,20,17
+    CONTROL         "par",IDC_TAB_PARTICLE_BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,47,107,20,17
+    CONTROL         "magic",IDC_TAB_MAGIC_BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,67,107,20,17
+    CONTROL         "sound",IDC_TAB_SOUND_BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,87,107,20,17
+    EDITTEXT        IDC_EDIT4,107,58,19,12,ES_AUTOHSCROLL
+    LTEXT           "fly speed",IDC_STATIC,73,60,30,8
+    LTEXT           "카메라거리",IDC_STATIC,58,46,41,8
+    CONTROL         "Dummy",IDC_TAB_DUMMY_BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,107,107,20,17
+    CONTROL         "사운드표시",IDC_CHECK27,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,71,79,53,11
+    CONTROL         "더미표시",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,71,92,53,11
+END
+
+IDD_ENTITY_EDIT DIALOGEX 0, 0, 171, 298
+STYLE WS_CHILD
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "Edit",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,14,16,29,
+                    12
+    CONTROL         "Select",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,13,72,34,
+                    11
+    PUSHBUTTON      "삭제(Del)",IDC_BUTTON3,10,161,41,17,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Edit",IDC_STATIC,7,7,99,283
+    PUSHBUTTON      "Select G All",IDC_BUTTON4,54,161,47,12
+    PUSHBUTTON      "UnSelect All",IDC_BUTTON5,54,177,47,12
+    PUSHBUTTON      "열기",IDC_BUTTON7,18,97,22,14,0,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO1,0,113,171,144,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,32,57,21,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,57,57,21,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,82,57,21,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "삭제",IDC_BUTTON8,41,97,22,14,0,WS_EX_STATICEDGE
+    LTEXT           "- Entity 파일관련 -",IDC_STATIC,18,85,65,8
+    PUSHBUTTON      "대체",IDC_BUTTON9,64,97,22,14,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5,41,147,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,71,147,29,12,ES_AUTOHSCROLL
+    LTEXT           "Start",IDC_STATIC,46,138,18,10
+    LTEXT           "End",IDC_STATIC,80,138,16,10
+    LTEXT           "-Entity 사라지는거리-",IDC_STATIC,18,129,75,8
+    CONTROL         "Pos",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,13,43,16,12
+    CONTROL         "Scale",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,32,43,21,12
+    CONTROL         "Y Rot",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,57,43,21,12
+    CONTROL         "X rot",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,82,43,21,12
+    PUSHBUTTON      "Freeze",IDC_BUTTON1,24,194,27,12
+    PUSHBUTTON      "UnFreeze All",IDC_BUTTON2,55,210,45,13
+    CONTROL         "UnFreeze",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,55,194,45,12
+    EDITTEXT        IDC_EDIT18,18,268,33,12,ES_AUTOHSCROLL
+    LTEXT           "인자1",IDC_STATIC,20,259,32,10
+    COMBOBOX        IDC_COMBO2,9,240,95,98,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "------ Entity Shader ------",IDC_STATIC,15,230,81,8
+    EDITTEXT        IDC_EDIT19,60,268,33,12,ES_AUTOHSCROLL
+    LTEXT           "인자2",IDC_STATIC,62,259,32,10
+    EDITTEXT        IDC_EDIT20,14,28,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,44,28,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,74,28,29,12,ES_AUTOHSCROLL
+END
+
+IDD_COLL_EDIT DIALOGEX 0, 0, 116, 215
+STYLE WS_CHILD
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "Edit",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,13,34,29,
+                    15
+    CONTROL         "Select",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,13,92,34,
+                    15
+    COMBOBOX        IDC_COMBO1,55,95,47,57,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Test",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,13,18,28,
+                    15
+    PUSHBUTTON      "삭제(Del)",IDC_BUTTON3,51,49,50,16,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Edit",IDC_STATIC,7,7,101,197
+    PUSHBUTTON      "Select All",IDC_BUTTON4,55,111,47,12
+    PUSHBUTTON      "UnSelect All",IDC_BUTTON5,55,125,47,12
+    CONTROL         "Continue라인",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,45,36,58,13
+    EDITTEXT        IDC_EDIT1,63,76,31,13,ES_AUTOHSCROLL
+    GROUPBOX        "Height",IDC_STATIC,61,66,39,25
+    PUSHBUTTON      "Freeze",IDC_BUTTON1,24,148,27,12
+    PUSHBUTTON      "UnFreeze All",IDC_BUTTON2,55,164,45,13
+    CONTROL         "UnFreeze",IDC_CHECK26,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,55,148,45,12
+END
+
+IDD_ENTITY_FILE DIALOGEX 0, 0, 118, 78
+STYLE WS_CHILD
+FONT 8, "Tahoma"
+BEGIN
+    GROUPBOX        "File",IDC_STATIC,7,7,103,62
+    PUSHBUTTON      "맵 엔티티 열기",IDC_BUTTON1,39,32,64,14,0,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "맵 엔티티 저장",IDC_BUTTON2,39,15,64,14,0,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "맵 엔티티 더하기",IDC_BUTTON3,39,50,64,14,0,
+                    WS_EX_STATICEDGE
+END
+
+IDD_PARTICLE_FILE DIALOGEX 0, 0, 117, 75
+STYLE WS_CHILD
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "File",IDC_STATIC,7,7,103,60
+    PUSHBUTTON      "파티클 열기",IDC_BUTTON1,47,15,56,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "파티클 reload",IDC_BUTTON2,47,32,56,14,0,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PARTICLE_NAME,13,50,89,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_PARTICLE_EDIT DIALOGEX 0, 0, 118, 149
+STYLE WS_CHILD
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Edit",IDC_STATIC,7,7,103,131
+    PUSHBUTTON      "Property",IDC_BUTTON3,69,35,36,11
+    COMBOBOX        IDC_COMBO1,21,18,83,93,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Pos",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,14,51,17,11
+    CONTROL         "Move",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,32,51,21,11
+    CONTROL         "시작",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,14,35,19,11,WS_EX_STATICEDGE
+    CONTROL         "시작범위",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,73,51,33,11
+    EDITTEXT        IDC_EDIT_ATTACH_ENTITY,15,77,89,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CTEXT           "- Attach 엔티티-",IDC_STATIC,11,66,60,8
+    PUSHBUTTON      "Load",IDC_BUTTON_ENTITY_LOAD,77,64,27,11
+END
+
+IDD_FORM_BORDER DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+END
+
+IDD_PARTICLE_PROPERTY DIALOGEX 0, 0, 189, 151
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Particle Property"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "0",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,48,3,17,11
+    CONTROL         "Z write(주의필요)",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,43,83,11
+    CONTROL         "NO 빌보드(billboard)",IDC_CHECK3,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,56,83,11
+    CONTROL         "Z 비교안함.",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,30,83,11
+    CONTROL         "한번출력으로 끝(No Loop)",IDC_CHECK5,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,18,107,11
+    CONTROL         "충돌 검사",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,68,83,11
+    LTEXT           "*알파 Type",IDC_STATIC,7,4,40,10
+    CONTROL         "2",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,67,3,17,11
+    CONTROL         "3",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,87,3,17,11
+    CONTROL         "5",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,107,3,17,11
+    CONTROL         "8",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,127,3,17,11
+    CONTROL         "10",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,147,3,19,11
+    CONTROL         "11",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,170,3,19,11
+    CONTROL         "항상 살아있음(새로태어나지않음)",IDC_CHECK8,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,81,136,11
+    CONTROL         "엔티티 애니메이션을 사용",IDC_CHECK9,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,95,106,11
+    CONTROL         "공기감쇠무시",IDC_CHECK25,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,109,106,11
+END
+
+IDD_MAGIC_EDIT DIALOG DISCARDABLE  0, 0, 115, 134
+STYLE WS_CHILD
+FONT 8, "Tahoma"
+BEGIN
+    GROUPBOX        "Edit",EDIT_DISPLAY,7,7,101,45
+    CONTROL         "Pos",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,15,37,17,11
+    CONTROL         "Move",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,33,37,21,11
+    PUSHBUTTON      "시작",IDC_BUTTON1,15,18,20,12
+    CONTROL         "항상 살아있음.",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,11,65,92,11
+    GROUPBOX        "속성",EDIT_DISPLAY,7,55,101,73
+END
+
+IDD_MAGIC_FILE DIALOGEX 0, 0, 119, 76
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "마법 Reload",IDC_BUTTON1,53,32,50,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "마법 로딩",IDC_BUTTON2,53,15,50,14,0,WS_EX_STATICEDGE
+    GROUPBOX        "File",IDC_STATIC,7,7,102,60
+    EDITTEXT        IDC_EDIT_MAGIC_NAME,13,50,89,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_SOUND_FILE DIALOGEX 0, 0, 119, 60
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "사운드 로딩",IDC_BUTTON1,53,32,50,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "사운드 저장",IDC_BUTTON2,53,15,50,14,0,WS_EX_STATICEDGE
+    GROUPBOX        "File",IDC_STATIC,7,7,102,44
+END
+
+IDD_SOUND_EDIT DIALOGEX 0, 0, 182, 312
+STYLE WS_CHILD
+FONT 8, "Tahoma"
+BEGIN
+    GROUPBOX        "Edit",IDC_STATIC,7,7,101,296
+    CONTROL         "Edit",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,14,19,29,
+                    12
+    CONTROL         "Select",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,59,20,34,
+                    11
+    PUSHBUTTON      "삭제(Del)",IDC_BUTTON3,13,247,41,17,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "열기",IDC_BUTTON7,19,199,22,14,0,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO1,0,215,182,144,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,34,94,34,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "삭제",IDC_BUTTON8,43,199,22,14,0,WS_EX_STATICEDGE
+    LTEXT           "- Sound 파일관련 -",IDC_STATIC,19,187,65,8
+    PUSHBUTTON      "대체",IDC_BUTTON9,65,199,22,14,0,WS_EX_STATICEDGE
+    CONTROL         "Pos",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,14,80,16,12
+    CONTROL         "잘들림",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,34,80,34,12
+    PUSHBUTTON      "Freeze",IDC_BUTTON1,23,267,27,12
+    PUSHBUTTON      "UnFreeze All",IDC_BUTTON2,55,283,45,13
+    CONTROL         "UnFreeze",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,55,267,45,12
+    CONTROL         "요거 들어보기",IDC_CHECK27,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,14,230,62,14,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT15,70,94,34,12,ES_AUTOHSCROLL
+    CONTROL         "감쇠거리",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,70,80,34,12
+    EDITTEXT        IDC_EDIT5,43,168,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,75,168,30,12,ES_AUTOHSCROLL
+    CONTROL         "Y Rot",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,44,154,31,12
+    CONTROL         "X rot",IDC_CHECK21,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,76,154,30,12
+    CONTROL         "Loop",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    33,34,29,11
+    CONTROL         "구형태",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,64,40,11
+    CONTROL         "박스형태",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,110,47,11
+    EDITTEXT        IDC_EDIT3,11,168,21,12,ES_AUTOHSCROLL
+    CONTROL         "잘들림",IDC_CHECK28,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,11,154,32,12
+    CONTROL         "Event",IDC_CHECK24,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,33,45,31,11
+    EDITTEXT        IDC_EDIT25,68,45,24,12,ES_AUTOHSCROLL
+    CONTROL         "전체들리는크기",IDC_CHECK29,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,31,124,71,12
+    EDITTEXT        IDC_EDIT22,29,139,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT26,54,139,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT27,79,139,25,12,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,34,170,8,8
+    CONTROL         "Pan Off",IDC_CHECK22,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,66,33,40,11
+END
+
+IDD_DUMMY_FILE DIALOGEX 0, 0, 119, 60
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Dummy 로딩",IDC_BUTTON1,53,32,50,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Dummy 저장",IDC_BUTTON2,53,15,50,14,0,WS_EX_STATICEDGE
+    GROUPBOX        "File",IDC_STATIC,7,7,102,44
+END
+
+IDD_DUMMY_EDIT DIALOGEX 0, 0, 119, 260
+STYLE WS_CHILD
+FONT 8, "Tahoma"
+BEGIN
+    GROUPBOX        "Edit",IDC_STATIC,7,7,101,246
+    CONTROL         "Edit",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,15,23,25,
+                    12
+    CONTROL         "Select",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,15,120,
+                    34,11
+    PUSHBUTTON      "삭제(Del)",IDC_BUTTON3,13,196,41,17,0,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO1,41,22,67,144,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "- Select Group -",IDC_STATIC,45,150,52,8
+    CONTROL         "Pos",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,22,40,18,12
+    CONTROL         "Scale",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,48,40,56,12
+    COMBOBOX        IDC_COMBO3,41,159,67,144,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,47,135,59,12,ES_AUTOHSCROLL
+    LTEXT           "더미이름",IDC_STATIC,12,137,34,8
+    PUSHBUTTON      "Freeze",IDC_BUTTON1,23,219,27,12
+    PUSHBUTTON      "UnFreeze All",IDC_BUTTON2,55,235,45,13
+    CONTROL         "UnFreeze",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,55,219,45,12
+    PUSHBUTTON      "UnSelect All",IDC_BUTTON5,47,174,47,12
+    EDITTEXT        IDC_EDIT15,47,55,19,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,66,55,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,86,55,19,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Search Dummy",IDC_BUTTON10,53,89,52,12
+    EDITTEXT        IDC_EDIT23,53,70,37,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Rot",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,23,70,18,12
+    PUSHBUTTON      "Split Dummy",IDC_BUTTON11,53,103,52,12
+    PUSHBUTTON      "에러첵크",IDC_BUTTON12,11,91,39,24
+END
+
+IDD_DUMMY_DIALOG DIALOGEX 0, 0, 139, 53
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,87,24,34,14
+    EDITTEXT        IDC_EDIT2,17,24,59,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cancel",IDCANCEL,7,7,10,17,NOT WS_VISIBLE
+    LTEXT           "더미이름을 입력하세요. ^^",IDC_STATIC,19,11,101,11
+END
+
+IDD_DUMMY_SEARCH_DIALOG DIALOG DISCARDABLE  0, 0, 142, 53
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,97,20,37,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,29,6,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT2,13,20,66,12,ES_AUTOHSCROLL
+    LTEXT           "찾고자 할 더미이름을 입력하세요. ^^",IDC_STATIC,7,7,127,
+                    9
+END
+
+IDD_DUMMY_SPLIT_DIALOG DIALOG DISCARDABLE  0, 0, 152, 55
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "분할하려는 가로세로 값을 입력하세요"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,95,33,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,7,6,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT15,25,25,23,12,ES_AUTOHSCROLL
+    LTEXT           "가로",IDC_STATIC,30,15,17,8
+    LTEXT           "세로",IDC_STATIC,58,15,17,8
+    EDITTEXT        IDC_EDIT24,56,25,23,12,ES_AUTOHSCROLL
+END
+
+IDD_DUMMY_ERROR_DIALOG DIALOG DISCARDABLE  0, 0, 236, 54
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "잘못된 더미위치"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "지운다.",IDOK,15,24,50,14
+    PUSHBUTTON      "냅둔다.",IDCANCEL,121,24,50,14
+    DEFPUSHBUTTON   "이동한다.",IDOK2,68,24,50,14
+    CTEXT           "에러 난 이 더미를 어떻게 할까요?",IDC_STATIC,15,13,153,
+                    8
+    DEFPUSHBUTTON   "모든에러삭제.",IDOK3,173,10,56,34
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "RFMapTool MFC 응용 프로그램\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "RFMapTool\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "RFMapTool.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "RFMapTool 응용 프로그램\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ENTITY_FILE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 117
+    END
+
+    IDD_MAGIC_FILE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 118
+    END
+
+    IDD_SOUND_FILE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 118
+    END
+
+    IDD_DUMMY_FILE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 118
+    END
+
+    IDD_DUMMY_EDIT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 118
+    END
+
+    IDD_DUMMY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 132
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+
+    IDD_DUMMY_SEARCH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 134
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_DUMMY_SPLIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 145
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    IDD_DUMMY_ERROR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "RFMapTool\n\nRFMapT\n\n\nRFMapTool.Document\nRFMapT Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "RFMapTool"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "새 문서를 작성합니다\n새 파일"
+    ID_FILE_OPEN            "BSP 파일을 엽니다\n열기"
+    ID_FILE_CLOSE           "현재 열린 문서를 닫습니다\n닫기"
+    ID_FILE_SAVE            "현재 작업중인 충돌,엔티티,사운드를 저장합니다\n EBP 저장"
+    ID_FILE_SAVE_AS         "현재 열린 문서를 다른 이름으로 저장합니다\n다른 이름으로 저장"
+    ID_FILE_PAGE_SETUP      "인쇄 옵션을 변경합니다\n쪽 설정"
+    ID_FILE_PRINT_SETUP     "프린터와 인쇄 옵션을 변경합니다\n인쇄 설정"
+    ID_FILE_PRINT           "현재 열린 문서를 인쇄합니다\n인쇄"
+    ID_FILE_PRINT_PREVIEW   "쪽 전체를 표시합니다\n인쇄 미리 보기"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "프로그램 정보와 버전 정보, 저작권 정보를 표시합니다\n정보"
+    ID_APP_EXIT             "응용 프로그램을 종료하기 위해 문서를 저장할 것인지 묻습니다\n종료"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE2       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE3       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE4       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE5       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE6       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE7       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE8       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE9       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE10      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE11      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE12      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE13      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE14      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE15      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE16      "이 문서를 엽니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "다음 창으로 전환합니다\n다음 창"
+    ID_PREV_PANE            "이전 창으로 전환합니다\n이전 창"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "현재 열린 창을 나눕니다\n나누기"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "선택 부분을 지웁니다\n지우기"
+    ID_EDIT_CLEAR_ALL       "모든 것을 지웁니다\n모두 지우기"
+    ID_EDIT_CUT             "선택 부분을 잘라내어 클립보드에 넣습니다\n잘라내기"
+    ID_EDIT_FIND            "지정한 문자열을 찾습니다\n찾기"
+    ID_EDIT_PASTE           "클립보드의 내용을 붙여 넣습니다\n붙여넣기"
+    ID_EDIT_REPEAT          "마지막으로 실행한 동작을 반복합니다\n반복"
+    ID_EDIT_REPLACE         "지정한 문자열을 다른 문자열로 바꿉니다\n바꾸기"
+    ID_EDIT_SELECT_ALL      "문서 전체를 선택합니다\n전체 선택"
+    ID_EDIT_UNDO            "마지막으로 한 동작을 취소합니다\n실행 취소"
+    ID_EDIT_REDO            "이전에 취소한 동작을 다시 수행합니다\n다시 실행"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "도구 모음을 보이거나 감춥니다\n도구 모음 전환"
+    ID_VIEW_STATUS_BAR      "상태 표시줄을 표시하거나 감춥니다\n상태 표시줄 전환"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "창의 크기를 변경합니다"
+    AFX_IDS_SCMOVE          "창의 위치를 변경합니다"
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 줄여서 표시합니다"
+    AFX_IDS_SCMAXIMIZE      "창을 최대 크기로 확장합니다"
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다"
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다"
+    AFX_IDS_SCCLOSE         "현재 열린 창을 닫고 문서를 저장할 것인지를 묻습니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 원래 크기로 복원합니다"
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "인쇄 미리 보기 모드를 닫습니다\n미리 보기 취소"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_COLLISION_OPEN  "충돌 폴리곤 파일을 엽니다.\n충돌맵 열기"
+    ID_FILE_COLLISION_SAVE  "충돌 파일을 따로 저장합니다.\n충돌맵 저장"
+    ID_FILE_MAP_ENTITY_OPEN "맵 엔티티 파일을 엽니다.\n맵 엔티티 열기"
+    ID_FILE_MAP_ENTITY_SAVE "맵 엔티티를 저장합니다.\n맵 엔티티 저장"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MAP_ENTITY_LOAD "맵 엔티티를 엽니다."
+    ID_TAB_COLLSION         "충돌폴리곤 작업을 합니다."
+    ID_TAB_ENTITY           "엔티티 에디팅 작업을 합니다."
+    ID_TAB_PARTICLE         "파티클을 생성합니다."
+    ID_FILE_MAP_DUMMY_OPEN  "더미를 오픈 합니다\n 더미오픈"
+    ID_FILE_OPEN_EBP        "EBP파일을 엽니다.\nEBP열기"
+    ID_FILE_MAP_DUMMY_SAVE  "더미를 저장 합니다\n 더미저장"
+    ID_FILE_DUMMY_OPEN      "더미를 오픈합니다.\n더미 열기"
+    ID_FILE_DUMMY_SAVE      "더미를 저장합니다.\n더미 저장"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_SOUND_ENTITY_SAVE "사운드 정보를 저장합니다.\n사운드 저장"
+    ID_FILE_SOUND_ENTITY_LOAD "사운드 정보를 로딩합니다."
+    ID_FILE_SOUND_ENTITY_OPEN "사운드 정보를 로딩합니다.\n사운드 열기"
+    ID_FILE_MAP_ENTITY_ADD_OPEN 
+                            "맵 엔티티 파일을 더합니다.\n현재 맵 엔티티에 더하기"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\RFMapTool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#include "l.kor\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

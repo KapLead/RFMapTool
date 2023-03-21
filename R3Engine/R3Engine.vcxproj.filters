@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{41db182d-48a2-40bf-8a6f-32fb6c4db5f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Header %28Common%29">
+      <UniqueIdentifier>{6d1393c9-ed96-4cf6-b0ef-26d31826d013}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="1st Class">
+      <UniqueIdentifier>{aea36e4e-8223-4ba5-9562-5c8c4b6e8b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1st Class\Header %281st Class%29">
+      <UniqueIdentifier>{5f0af5d7-8ec7-448d-9674-2c1ea7775049}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="2nd Class">
+      <UniqueIdentifier>{4f2b8eff-d225-48ba-9b1c-24329caa1531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2nd Class\Header %282nd Class%29">
+      <UniqueIdentifier>{d08b5d9a-de21-47c3-908c-a4be7108011d}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Extension">
+      <UniqueIdentifier>{03f1c0e4-3c2e-41ac-a8bd-06ba652c7c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension\Header %28Extension%29">
+      <UniqueIdentifier>{3b98baf2-09ab-45f4-a1da-5c075365ba9c}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="D3D">
+      <UniqueIdentifier>{7ae93341-e06c-4211-be5a-2f558a67ad8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\B_sort.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\C_Vector.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\CJcache.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\CommonUtil.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\JCONFIG.H">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\JError.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Jmalloc.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\JMORECFG.H">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Jpegfile.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\JPEGLIB.H">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\R3DInput.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\R3Input.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\R3Math.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="common\R3Profiler.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Common\Header %28Common%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\Animation.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\Collision.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\Core.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\CPathFinder.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\entity.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\MultiLayer.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\Procedural.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\R3Alpha.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\R3Bsp.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\R3D3d8.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\R3D3dTex.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\R3LightMap.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\R3Material.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\R3Particle.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\R3Render.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\R3VertexBuffer.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\R3VertexShader.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\RenderFlag.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\RenderParticle.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\Skybox.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\SoundEntity.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\SpecialParticle.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="1stClass\ToolCollision.h">
+      <Filter>1st Class\Header %281st Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\2DSprite.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\AniCamera.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\Console.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\ExtDummy.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\Level.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\MoveCamera.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\R3D3DAPP.H">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\R3d3dwrapper.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\R3EngineKernel.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\R3Font.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\R3Move.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\R3Sound.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\R3Text.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="2ndClass\R3Util.h">
+      <Filter>2nd Class\Header %282nd Class%29</Filter>
+    </ClInclude>
+    <ClInclude Include="extension\CharacterObj.h">
+      <Filter>Extension\Header %28Extension%29</Filter>
+    </ClInclude>
+    <ClInclude Include="extension\CMagicScript.h">
+      <Filter>Extension\Header %28Extension%29</Filter>
+    </ClInclude>
+    <ClInclude Include="extension\CollisionUtil.h">
+      <Filter>Extension\Header %28Extension%29</Filter>
+    </ClInclude>
+    <ClInclude Include="extension\CSwordTrace.h">
+      <Filter>Extension\Header %28Extension%29</Filter>
+    </ClInclude>
+    <ClInclude Include="extension\EffectCore.h">
+      <Filter>Extension\Header %28Extension%29</Filter>
+    </ClInclude>
+    <ClInclude Include="extension\EffectEntityList.h">
+      <Filter>Extension\Header %28Extension%29</Filter>
+    </ClInclude>
+    <ClInclude Include="extension\effectutil.h">
+      <Filter>Extension\Header %28Extension%29</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Extension\Header %28Extension%29</Filter>
+    </ClInclude>
+    <ClInclude Include="extension\ParticleList.h">
+      <Filter>Extension\Header %28Extension%29</Filter>
+    </ClInclude>
+    <ClInclude Include="extension\RTMovie.h">
+      <Filter>Extension\Header %28Extension%29</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d\include\d3dutil.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d\include\dxutil.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="MSS.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\B_sort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\CJcache.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\CommonUtil.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\JError.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Jmalloc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Jpegfile.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\R3DInput.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\R3Input.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\R3Math.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\R3Profiler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\Animation.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\Bsp.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\Collision.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\Core.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\CPathFinder.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\entity.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\MultiLayer.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\Procedural.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\R3Alpha.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\R3D3d8.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\R3D3dTex.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\R3LightMap.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\R3Material.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\R3Particle.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\R3Render.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\R3VertexBuffer.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\R3VertexShader.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\RenderEntity.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\RenderFlag.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\RenderParticle.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\Skybox.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\SoundEntity.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\SpecialParticle.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1stClass\ToolCollision.cpp">
+      <Filter>1st Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\2DSprite.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\AniCamera.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\Console.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\ExtDummy.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\Level.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\MoveCamera.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\R3D3DAPP.CPP">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\R3D3DWrapper.CPP">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\R3EngineKernel.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\R3Font.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\R3Move.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\R3Sound.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\R3Text.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2ndClass\R3Util.cpp">
+      <Filter>2nd Class</Filter>
+    </ClCompile>
+    <ClCompile Include="extension\CharacterObj.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="extension\CMagicScript.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="extension\CollisionUtil.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="extension\CSwordTrace.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="extension\EffectCore.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="extension\EffectEntityList.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="extension\ParticleList.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="extension\RTMovie.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d\d3dutil.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d\dxutil.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Logo_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winmain.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="mss32.lib" />
+  </ItemGroup>
+</Project>

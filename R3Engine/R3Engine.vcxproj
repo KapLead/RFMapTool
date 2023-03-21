@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Client Debug|Win32">
+      <Configuration>Client Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RTMovie Debug|Win32">
+      <Configuration>RTMovie Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RTMovie Release|Win32">
+      <Configuration>RTMovie Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="S Debug NoSound|Win32">
+      <Configuration>S Debug NoSound</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="S Release NoSound|Win32">
+      <Configuration>S Release NoSound</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Tool Debug|Win32">
+      <Configuration>Tool Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName>"$/R3Technology/Core/R3Engine", GAAAAAAA</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <ProjectGuid>{B4EDEF05-7D98-4504-9784-081F6311FC32}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RTMovie Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RTMovie Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='S Debug NoSound|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Tool Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Client Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='S Release NoSound|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RTMovie Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RTMovie Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='S Debug NoSound|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Tool Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Client Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='S Release NoSound|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='S Release NoSound|Win32'">
+    <OutDir>.\S Release NoSound\</OutDir>
+    <IntDir>.\S Release NoSound\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Client Debug|Win32'">
+    <OutDir>.\Client Debug\</OutDir>
+    <IntDir>.\Client Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Tool Debug|Win32'">
+    <OutDir>.\R3Engine___Win32_Tool_Debug\</OutDir>
+    <IntDir>.\R3Engine___Win32_Tool_Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='S Debug NoSound|Win32'">
+    <OutDir>.\S Debug NoSound\</OutDir>
+    <IntDir>.\S Debug NoSound\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RTMovie Release|Win32'">
+    <OutDir>.\RTMovie Release\</OutDir>
+    <IntDir>.\RTMovie Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RTMovie Debug|Win32'">
+    <OutDir>.\RTMovie Debug\</OutDir>
+    <IntDir>.\RTMovie Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='S Release NoSound|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.\Extension;.\1stClass;.\2ndClass;.\Common;.\D3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_SERVER_DEBUG_NO_SOUND;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\S Release NoSound\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\S Release NoSound\R3Engine.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\S Release NoSound\</ObjectFileName>
+      <ProgramDataBaseFileName>.\S Release NoSound\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\S Release NoSound\R3Engine.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>R3EngineMTDLL_NoSound.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Client Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.\Extension;.\1stClass;.\2ndClass;.\Common;.\D3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;RTMOVIE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Client Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Client Debug\R3Engine.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Client Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Client Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Client Debug\R3Engine.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>R3EngineDMT.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Tool Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.\Extension;.\1stClass;.\2ndClass;.\Common;.\D3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;RTMOVIE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\R3Engine___Win32_Tool_Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\R3Engine___Win32_Tool_Debug\R3Engine.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\R3Engine___Win32_Tool_Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\R3Engine___Win32_Tool_Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\R3Engine___Win32_Tool_Debug\R3Engine.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>R3EngineDMTDLL_NoSound.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='S Debug NoSound|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.\Extension;.\1stClass;.\2ndClass;.\Common;.\D3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_SERVER_DEBUG_NO_SOUND;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\S Debug NoSound\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\S Debug NoSound\R3Engine.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\S Debug NoSound\</ObjectFileName>
+      <ProgramDataBaseFileName>.\S Debug NoSound\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\S Debug NoSound\R3Engine.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>R3EngineDMTDLL_NoSound.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RTMovie Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.\Extension;.\1stClass;.\2ndClass;.\Common;.\D3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\RTMovie Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\RTMovie Release\R3Engine.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\RTMovie Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\RTMovie Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\RTMovie Release\R3Engine.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>R3Engine.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RTMovie Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.\Extension;.\1stClass;.\2ndClass;.\Common;.\D3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\RTMovie Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\RTMovie Debug\R3Engine.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\RTMovie Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\RTMovie Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\RTMovie Debug\R3Engine.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>R3EngineD.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="1stClass\Animation.h" />
+    <ClInclude Include="1stClass\Collision.h" />
+    <ClInclude Include="1stClass\Core.h" />
+    <ClInclude Include="1stClass\CPathFinder.h" />
+    <ClInclude Include="1stClass\entity.h" />
+    <ClInclude Include="1stClass\MultiLayer.h" />
+    <ClInclude Include="1stClass\Procedural.h" />
+    <ClInclude Include="1stClass\R3Alpha.h" />
+    <ClInclude Include="1stClass\R3Bsp.h" />
+    <ClInclude Include="1stClass\R3D3d8.h" />
+    <ClInclude Include="1stClass\R3D3dTex.h" />
+    <ClInclude Include="1stClass\R3LightMap.h" />
+    <ClInclude Include="1stClass\R3Material.h" />
+    <ClInclude Include="1stClass\R3Particle.h" />
+    <ClInclude Include="1stClass\R3Render.h" />
+    <ClInclude Include="1stClass\R3VertexBuffer.h" />
+    <ClInclude Include="1stClass\R3VertexShader.h" />
+    <ClInclude Include="1stClass\RenderFlag.h" />
+    <ClInclude Include="1stClass\RenderParticle.h" />
+    <ClInclude Include="1stClass\Skybox.h" />
+    <ClInclude Include="1stClass\SoundEntity.h" />
+    <ClInclude Include="1stClass\SpecialParticle.h" />
+    <ClInclude Include="1stClass\ToolCollision.h" />
+    <ClInclude Include="2ndClass\2DSprite.h" />
+    <ClInclude Include="2ndClass\AniCamera.h" />
+    <ClInclude Include="2ndClass\Console.h" />
+    <ClInclude Include="2ndClass\ExtDummy.h" />
+    <ClInclude Include="2ndClass\Level.h" />
+    <ClInclude Include="2ndClass\MoveCamera.h" />
+    <ClInclude Include="2ndClass\R3D3DAPP.H" />
+    <ClInclude Include="2ndClass\R3d3dwrapper.h" />
+    <ClInclude Include="2ndClass\R3EngineKernel.h" />
+    <ClInclude Include="2ndClass\R3Font.h" />
+    <ClInclude Include="2ndClass\R3Move.h" />
+    <ClInclude Include="2ndClass\R3Sound.h" />
+    <ClInclude Include="2ndClass\R3Text.h" />
+    <ClInclude Include="2ndClass\R3Util.h" />
+    <ClInclude Include="common\B_sort.h" />
+    <ClInclude Include="common\CJcache.h" />
+    <ClInclude Include="common\CommonUtil.h" />
+    <ClInclude Include="common\C_Vector.h" />
+    <ClInclude Include="common\JCONFIG.H" />
+    <ClInclude Include="common\JError.h" />
+    <ClInclude Include="common\Jmalloc.h" />
+    <ClInclude Include="common\JMORECFG.H" />
+    <ClInclude Include="common\Jpegfile.h" />
+    <ClInclude Include="common\JPEGLIB.H" />
+    <ClInclude Include="common\R3DInput.h" />
+    <ClInclude Include="common\R3Input.h" />
+    <ClInclude Include="common\R3Math.h" />
+    <ClInclude Include="common\R3Profiler.h" />
+    <ClInclude Include="d3d\include\d3dutil.h" />
+    <ClInclude Include="d3d\include\dxutil.h" />
+    <ClInclude Include="extension\CharacterObj.h" />
+    <ClInclude Include="extension\CMagicScript.h" />
+    <ClInclude Include="extension\CollisionUtil.h" />
+    <ClInclude Include="extension\CSwordTrace.h" />
+    <ClInclude Include="extension\EffectCore.h" />
+    <ClInclude Include="extension\EffectEntityList.h" />
+    <ClInclude Include="extension\effectutil.h" />
+    <ClInclude Include="extension\ParticleList.h" />
+    <ClInclude Include="extension\RTMovie.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="MSS.H" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1stClass\Animation.cpp" />
+    <ClCompile Include="1stClass\Bsp.cpp" />
+    <ClCompile Include="1stClass\Collision.cpp" />
+    <ClCompile Include="1stClass\Core.cpp" />
+    <ClCompile Include="1stClass\CPathFinder.cpp" />
+    <ClCompile Include="1stClass\entity.cpp" />
+    <ClCompile Include="1stClass\MultiLayer.cpp" />
+    <ClCompile Include="1stClass\Procedural.cpp" />
+    <ClCompile Include="1stClass\R3Alpha.cpp" />
+    <ClCompile Include="1stClass\R3D3d8.cpp" />
+    <ClCompile Include="1stClass\R3D3dTex.cpp" />
+    <ClCompile Include="1stClass\R3LightMap.cpp" />
+    <ClCompile Include="1stClass\R3Material.cpp" />
+    <ClCompile Include="1stClass\R3Particle.cpp" />
+    <ClCompile Include="1stClass\R3Render.cpp" />
+    <ClCompile Include="1stClass\R3VertexBuffer.cpp" />
+    <ClCompile Include="1stClass\R3VertexShader.cpp" />
+    <ClCompile Include="1stClass\RenderEntity.cpp" />
+    <ClCompile Include="1stClass\RenderFlag.cpp" />
+    <ClCompile Include="1stClass\RenderParticle.cpp" />
+    <ClCompile Include="1stClass\Skybox.cpp" />
+    <ClCompile Include="1stClass\SoundEntity.cpp" />
+    <ClCompile Include="1stClass\SpecialParticle.cpp" />
+    <ClCompile Include="1stClass\ToolCollision.cpp" />
+    <ClCompile Include="2ndClass\2DSprite.cpp" />
+    <ClCompile Include="2ndClass\AniCamera.cpp" />
+    <ClCompile Include="2ndClass\Console.cpp" />
+    <ClCompile Include="2ndClass\ExtDummy.cpp" />
+    <ClCompile Include="2ndClass\Level.cpp" />
+    <ClCompile Include="2ndClass\MoveCamera.cpp" />
+    <ClCompile Include="2ndClass\R3D3DAPP.CPP" />
+    <ClCompile Include="2ndClass\R3D3DWrapper.CPP" />
+    <ClCompile Include="2ndClass\R3EngineKernel.cpp" />
+    <ClCompile Include="2ndClass\R3Font.cpp" />
+    <ClCompile Include="2ndClass\R3Move.cpp" />
+    <ClCompile Include="2ndClass\R3Sound.cpp" />
+    <ClCompile Include="2ndClass\R3Text.cpp" />
+    <ClCompile Include="2ndClass\R3Util.cpp" />
+    <ClCompile Include="common\B_sort.cpp" />
+    <ClCompile Include="common\CJcache.cpp" />
+    <ClCompile Include="common\CommonUtil.cpp" />
+    <ClCompile Include="common\JError.cpp" />
+    <ClCompile Include="common\Jmalloc.cpp" />
+    <ClCompile Include="common\Jpegfile.cpp" />
+    <ClCompile Include="common\R3DInput.cpp" />
+    <ClCompile Include="common\R3Input.cpp" />
+    <ClCompile Include="common\R3Math.cpp" />
+    <ClCompile Include="common\R3Profiler.cpp" />
+    <ClCompile Include="d3d\d3dutil.cpp" />
+    <ClCompile Include="d3d\dxutil.cpp" />
+    <ClCompile Include="extension\CharacterObj.cpp" />
+    <ClCompile Include="extension\CMagicScript.cpp" />
+    <ClCompile Include="extension\CollisionUtil.cpp" />
+    <ClCompile Include="extension\CSwordTrace.cpp" />
+    <ClCompile Include="extension\EffectCore.cpp" />
+    <ClCompile Include="extension\EffectEntityList.cpp" />
+    <ClCompile Include="extension\ParticleList.cpp" />
+    <ClCompile Include="extension\RTMovie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Logo_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winmain.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="mss32.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
