@@ -19,6 +19,12 @@
 #include "level.h"
 #include "R3math.h"
 #include "Core.h"
+#include "R3Engine/1stClass/core.h"
+#include "R3Engine/1stClass/entity.h"
+#include "R3Engine/1stClass/R3Particle.h"
+#include "R3Engine/2ndClass/Level.h"
+#include "R3Engine/Common/jerror.h"
+#include "R3Engine/Common/jmalloc.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

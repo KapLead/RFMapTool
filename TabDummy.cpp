@@ -18,6 +18,9 @@
 #include "r3text.h"
 #include "r3render.h"
 #include "core.h"
+#include "R3Engine/2ndClass/ExtDummy.h"
+#include "R3Engine/Common/c_vector.h"
+#include "R3Engine/Common/jmalloc.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

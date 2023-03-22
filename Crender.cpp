@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "RFMapTool.h"
 #include "crender.h"
+#include "R3Engine/2ndClass/r3enginekernel.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

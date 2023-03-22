@@ -16,6 +16,15 @@
 #include "r3text.h"
 #include "core.h"
 #include "toolmanager.h"
+#include "R3Engine/1stClass/core.h"
+#include "R3Engine/2ndClass/Level.h"
+#include "R3Engine/2ndClass/R3Sound.h"
+#include "R3Engine/Common/CommonUtil.h"
+#include "R3Engine/Common/c_vector.h"
+#include "R3Engine/Common/jerror.h"
+#include "R3Engine/Common/jmalloc.h"
+#include "R3Engine/common/R3Input.h"
+#include "R3Engine/Common/R3math.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -259,7 +268,7 @@ void SaveSound()
 
 	fwrite(&stSoundEntitiesNum,4,1,fp);	//개수를 저장.
 
-	for( i=0; i<stSoundEntitiesNum; i++)
+	for(int i=0; i<stSoundEntitiesNum; i++)
 	{
 		fwrite(&stSoundEntitiesList[i].id,sizeof(WORD),1,fp);
 		fwrite(&stSoundEntitiesList[i].event_time,sizeof(WORD),1,fp);
@@ -620,7 +629,7 @@ static int SelectOneEntity(LONG x,LONG y,CLevel *level,Vector3f cam_pos)	//가장 
 			stSoundEntitiesList[id].flag&=~SOUND_IS_SELECTED;
 		else
 		{
-			for(i=0; i<stSoundEntitiesNum; i++)
+			for(int i=0; i<stSoundEntitiesNum; i++)
 			{
 				stSoundEntitiesList[i].flag &= ~SOUND_IS_SELECTED;
 			}
@@ -780,7 +789,7 @@ static void DeleteSelectedEntities()	// 선택되어진 엔티티들을 지운다.
 	int real_cnt=stMaxSoundPlayFlagCnt/8+1;
 	if( stSoundPlayFlag )
 		memset( stSoundPlayFlag,0,sizeof(BYTE)*real_cnt);
-
+	int i;
 	while( 1 )
 	{
 		for(int i=0; i<stSoundEntitiesNum; i++)	//거리가 먼놈들은 빼자.
